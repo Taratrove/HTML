@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {clear: both;}
+
+body {
+    background: url(../hình ảnh/Background-wall.jpg) top center / cover no-repeat;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 100%;
+  }
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid lightblue;
+}
+
+.header {
+    background: url('../hình ảnh/headertieude.jpg') top center / cover no-repeat;
+}
+
+.header {
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+}
+
+.header p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(54, 51, 51);
+}
+
+.header span {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header .heading .login-btn {
+    padding: 0 12px;
+}
+
+.header .login-form {
+    float: right;
+}
+
+.header form {
+    display: inline-block;
+}
+
+.header .heading img {
+    width: 100px;
+    margin-left: 50px;
+}
+
+.main {
+    width: 100%;
+    height: 500px;
+}
+
+.main #menuchinh, .main .shop, .main .cart {
+    height: 500px;
+}
+
+.main #menuchinh { 
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: bold;
+    background-color: rgb(240, 224, 9);
+}
+
+.main #menuchinh li {
+    padding: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.main .thanhdieuhuong {
+    width: 20%;
+    float: left;
+}
+
+.main .cuahang {
+    width: 60%;
+    border: 1px solid lightblue;
+    float: left;
+    background-color: #fff;
+}
+
+.main .cuahang-item img {
+    width: 200px;
+    text-align: center;
+}
+
+.main .cuahang-item input {
+    margin: 0 80px;
+    font-size: 24px;
+    padding: 6px 14px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 70px;
+    color: red;
+}
+
+.main .cuahang1 {
+    width: 20%;
+    border: 1px solid lightblue;
+    float: left;
+    background-color: rgba(204, 204, 204, 0.849);
+}
+
+.main .cuahang1 .cuahang1-form {
+    text-align: center;
+    display: block;
+}
+
+.main .cuahang1 legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+
+.main .cuahang1 img {
+    width: 150px;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.main .cart .buy-btn {
+    padding: 12px 16px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.footer {
+    border: 1px solid lightblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    color: #fff;
+    background-color: rgba(0, 0, 255, 0.5)
+}
